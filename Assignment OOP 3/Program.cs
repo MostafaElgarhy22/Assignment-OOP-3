@@ -41,14 +41,20 @@
             //Console.WriteLine($"Rectangle 3: Width={recta3.Width}, Height={recta3.Height}");
             #endregion
             #region Part 1 Question 3
-            ComplexNumber c1 = new ComplexNumber(5.0, 8.0);
-            ComplexNumber c2 = new ComplexNumber(2.6, 1.5);
+            //ComplexNumber c1 = new ComplexNumber(5.0, 8.0);
+            //ComplexNumber c2 = new ComplexNumber(2.6, 1.5);
 
-            ComplexNumber sum = c1 + c2;
-            ComplexNumber Subtract = c1 - c2;
+            //ComplexNumber sum = c1 + c2;
+            //ComplexNumber Subtract = c1 - c2;
 
-            Console.WriteLine($"Sum = {sum}");        
-            Console.WriteLine($"Subtract = {Subtract}"); 
+            //Console.WriteLine($"Sum = {sum}");        
+            //Console.WriteLine($"Subtract = {Subtract}"); 
+            #endregion
+            #region Part 1 Question 4
+            //Employee employee = new Employee();
+            //employee.Work();
+            //Manager manager = new Manager();
+            //manager.Work();
             #endregion
         }
     }
