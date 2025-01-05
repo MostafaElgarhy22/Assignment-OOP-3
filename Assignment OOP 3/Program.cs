@@ -56,6 +56,23 @@
             //Manager manager = new Manager();
             //manager.Work();
             #endregion
+            #region Part 1 Question 5
+            //BaseClass baseClass = new BaseClass();
+            //baseClass.DisplayMessage();
+            //DerivedClass1 derivedClass1 = new DerivedClass1();
+            //derivedClass1.DisplayMessage();
+            //DerivedClass2 derivedClass2 = new DerivedClass2();
+            //derivedClass2.DisplayMessage();
+            ////--------------------------------- 
+            //BaseClass obj1 = new DerivedClass1();
+            //obj1.DisplayMessage(); 
+
+            //BaseClass obj2 = new DerivedClass2();
+            //obj2.DisplayMessage();         // it happened here in (compile time) so the output will be "Message from BaseClass" and "Message from BaseClass"
+
+
+
+            #endregion
         }
     }
 }
