@@ -29,7 +29,17 @@
             //Console.WriteLine(calculator.Add(4, 2, 5));
             //Console.WriteLine(calculator.Add(2.5, 4.7));
             #endregion
-            
+            #region Part 1 Question 2
+
+            Rectangle recta1 = new Rectangle();
+            Console.WriteLine($"Rectangle 1: Width={recta1.Width}, Height={recta1.Height}"); 
+
+            Rectangle recta2 = new Rectangle(15, 25);
+            Console.WriteLine($"Rectangle 2: Width={recta2.Width}, Height={recta2.Height}"); 
+
+            Rectangle recta3 = new Rectangle(15);
+            Console.WriteLine($"Rectangle 3: Width={recta3.Width}, Height={recta3.Height}"); 
+            #endregion
         }
     }
 }
