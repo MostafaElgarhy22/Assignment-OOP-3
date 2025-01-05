@@ -31,14 +31,24 @@
             #endregion
             #region Part 1 Question 2
 
-            Rectangle recta1 = new Rectangle();
-            Console.WriteLine($"Rectangle 1: Width={recta1.Width}, Height={recta1.Height}"); 
+            //Rectangle recta1 = new Rectangle();
+            //Console.WriteLine($"Rectangle 1: Width={recta1.Width}, Height={recta1.Height}"); 
 
-            Rectangle recta2 = new Rectangle(15, 25);
-            Console.WriteLine($"Rectangle 2: Width={recta2.Width}, Height={recta2.Height}"); 
+            //Rectangle recta2 = new Rectangle(15, 25);
+            //Console.WriteLine($"Rectangle 2: Width={recta2.Width}, Height={recta2.Height}"); 
 
-            Rectangle recta3 = new Rectangle(15);
-            Console.WriteLine($"Rectangle 3: Width={recta3.Width}, Height={recta3.Height}"); 
+            //Rectangle recta3 = new Rectangle(15);
+            //Console.WriteLine($"Rectangle 3: Width={recta3.Width}, Height={recta3.Height}");
+            #endregion
+            #region Part 1 Question 3
+            ComplexNumber c1 = new ComplexNumber(5.0, 8.0);
+            ComplexNumber c2 = new ComplexNumber(2.6, 1.5);
+
+            ComplexNumber sum = c1 + c2;
+            ComplexNumber Subtract = c1 - c2;
+
+            Console.WriteLine($"Sum = {sum}");        
+            Console.WriteLine($"Subtract = {Subtract}"); 
             #endregion
         }
     }
