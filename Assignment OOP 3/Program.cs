@@ -73,6 +73,35 @@
 
 
             #endregion
+            //--------------------------------------------------
+            #region Part 2
+
+            //Duration duration1 = new Duration(3, 42, 47);
+            //Duration duration2 = new Duration(7500);
+            //Console.WriteLine(duration1);
+            //Console.WriteLine(duration2);
+
+            //  -----------------------------------------------
+
+            Duration D1 = new Duration(5, 54, 17);
+            Duration D2 = new Duration(7800);
+            Duration D3 = new Duration(200000);
+            Duration D4 = new Duration(8900);
+
+            Duration result = D1 + D2;
+            Console.WriteLine(result);
+            Duration result2 = D1 + 1000;
+            Console.WriteLine(result2);
+            Duration result3 = D1++;
+            Console.WriteLine(result3);
+            Duration result4 = D1--;
+            Console.WriteLine(result4);
+            Duration result5 = D1 - D2;
+            Console.WriteLine(result5);
+            Console.WriteLine(D1 > D2);
+            Console.WriteLine(D1 <= D2);
+            Console.WriteLine(D1);
+            #endregion
         }
     }
 }
